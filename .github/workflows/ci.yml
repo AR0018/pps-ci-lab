@@ -14,4 +14,4 @@ jobs:
           cache-dependency-path:
             'build.gradle.kts'
       - name: Build
-        run: ./gradlew run
+        run: ./gradlew build
