@@ -8,5 +8,8 @@ jobs:
         with:
           java-version: 25
           distribution: temurin
+          cache: 'gradle'
+          cache-dependency-path:
+            '**/build.gradle.kts'
       - name: Build
         run: ./gradlew run
